@@ -1,0 +1,55 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/logs
+.env
+.env.backup
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# PHPUnit
+/.phpunit.cache
+/.phpunit.result.cache
+
+# IDE specific files
+/.phpactor.json
+/.phpstorm.meta.php
+/.phpstorm.meta.php/*
+/.fleet
+/.idea
+/.vscode
+
+# Homestead files
+Homestead.json
+Homestead.yaml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# NPM and Yarn files
+npm-debug.log
+yarn-error.log
+
+# Composer and NPM files
+composer.lock
+package-lock.json
+yarn.lock
+
+# Laravel generated files
+/public/mix-manifest.json
+/public/hot
+/public/css/app.css
+/public/js/app.js
+
+# Authentication files
+auth.json
